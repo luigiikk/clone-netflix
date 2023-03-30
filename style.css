@@ -1,0 +1,105 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: var(--vermelho);
+}
+body {
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+ul li {
+    float: left;
+}
+ul a {
+    display: block;
+    padding: 0 1.5em;
+    text-decoration: none;
+    color: #AAA;
+    font-size: 20px;
+    margin-right: 5px;
+}
+header .logo  {
+    margin-left: 5px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+ul a:hover {
+    color: #fff;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Filme principal */
+.filme-principal {
+    font-size: 21px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(src/i2gJQtnkLA2SpU9cRvkbuLOoW1I.jpg);
+    height: 780px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.titulo {
+    margin-top: 180px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao {
+    background-color: rgb(0, 0, 0, .50);
+    color: aliceblue;
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s all ease-in-out;
+    border-radius: 10px;
+}
+.botao:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.botao i {
+    margin-right: 10px;
+}
+.container {
+    margin-left: 30px;
+}
+.filme-principal .container {
+    width: 40%;
+}
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+ }
+
+ .carrosel-filmes {
+    margin-top: 10px;
+ }
